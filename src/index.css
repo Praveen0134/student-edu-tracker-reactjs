@@ -1,13 +1,97 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.Cont
+{
+  display: flex;
 }
+.side
+{
+  flex: 1;
+  display: flex;
+  background-color:lightsalmon;
+}
+.main
+{
+  flex: 5;
+  display: flex;
+  /* background-color: bisque; */
+}
+.navi
+{
+  height: 100vh;
+}
+body
+{
+  margin: 0;
+}
+.head
+{
+  background-color:rgb(83, 83, 224);
+  width:1300px ;
+  display: flex;
+}
+.stu
+{
+  background-color: rgb(231, 223, 223);
+  height: 200px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.stu a
+{
+  padding: 40px 80px;
+  background-color: rgb(235, 145, 11);
+  margin: 30px;
+  border-radius: 5px;
+}
+.menu
+{
+  /* background-color: rgb(101, 61, 1); */
+  /* align-items: center; */
+  display: flex;
+  justify-content: center;
+  height: 374px;
+}
+.gri a
+{
+  padding: 40px 80px;
+  background-color: rgb(18, 137, 241);
+  border-radius: 5px;
+  color: white;
+}
+.gri{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,100px);
+  grid-gap: 20px;
+  align-items: center;
+  margin-top:45px ;
+}
+h1
+{
+  text-align: center;
+}
+.gg
+{
+  text-align: center;
+  margin-left: 80px;
+}
+ul
+{
+  list-style-type: none;
+}
+.navi li
+{
+  padding:10px 0 ;
+  
+}
+.navi a
+{
+  display: flex;
+  background-color: rgb(247, 191, 168);
+  padding: 20px;
+}
+img
+{
+  width: 180px;
 }
