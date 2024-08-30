@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/student-edu-tracker-reactjs/static/css/main.2709643f.css",
+    "main.js": "/student-edu-tracker-reactjs/static/js/main.46255f54.js",
+    "static/media/logo.png": "/student-edu-tracker-reactjs/static/media/logo.f374ecf71589bea22059.png",
+    "index.html": "/student-edu-tracker-reactjs/index.html",
+    "main.2709643f.css.map": "/student-edu-tracker-reactjs/static/css/main.2709643f.css.map",
+    "main.46255f54.js.map": "/student-edu-tracker-reactjs/static/js/main.46255f54.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2709643f.css",
+    "static/js/main.46255f54.js"
+  ]
+}
